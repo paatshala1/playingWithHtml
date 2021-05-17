@@ -1,0 +1,38 @@
+:root {
+    --azulBase: #34a;
+    --tenue: rgba(250, 250, 213, 0.3);
+}
+
+.cont {
+    width: 22rem;
+    height: 4rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin:1rem auto;
+    background-color: var(--azulBase);
+    color: #ffb;
+}
+
+.btn {
+    margin: 1rem;
+    width: 10rem;
+    height:2.5rem;
+    border: transparent;
+    border-bottom: 1px solid var(--azulBase);
+}
+
+.btn:hover {
+    background-color: var(--tenue);
+    border-bottom: 0.2rem solid var(--azulBase);
+}
+
+
+#respuestas {
+    margin: 1rem;
+    border: 1px solid var(--azulBase);
+    background-color: var(--tenue);
+}
+
+p.resp {
+    margin: 1.2rem 1rem;
+}
